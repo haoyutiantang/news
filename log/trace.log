@@ -218,3 +218,448 @@
 2021-09-08 22:35:11.258 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
 2021-09-08 22:35:11.276 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
 2021-09-08 22:35:11.280 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.2 seconds (JVM running for 2.423)
+2021-09-08 22:36:19.492 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 19736 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 22:36:19.502 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 22:36:20.065 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 22:36:20.071 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 22:36:20.072 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 22:36:20.072 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 22:36:20.073 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 22:36:20.073 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 22:36:20.073 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 22:36:20.076 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 22:36:20.130 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 22:36:20.131 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 578 ms
+2021-09-08 22:36:20.224 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 22:36:20.306 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 22:36:20.319 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 22:36:20.321 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.176 seconds (JVM running for 2.2)
+2021-09-08 22:36:24.339 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 22:36:24.339 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-09-08 22:36:24.343 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
+2021-09-08 22:36:24.356 INFO  com.imooc.user.controller.HelloController         :19   [32m                  [0;39m info: hello~
+2021-09-08 22:36:24.356 WARN  com.imooc.user.controller.HelloController         :20   [32m                  [0;39m warn: hello~
+2021-09-08 22:36:24.356 ERROR com.imooc.user.controller.HelloController         :21   [32m                  [0;39m error: hello~
+2021-09-08 22:36:25.094 INFO  com.imooc.user.controller.HelloController         :19   [32m                  [0;39m info: hello~
+2021-09-08 22:36:25.094 WARN  com.imooc.user.controller.HelloController         :20   [32m                  [0;39m warn: hello~
+2021-09-08 22:36:25.095 ERROR com.imooc.user.controller.HelloController         :21   [32m                  [0;39m error: hello~
+2021-09-08 22:53:34.716 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 15452 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 22:53:34.718 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 22:53:35.103 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner   :146  [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 22:53:35.145 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 22:53:35.154 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 4ms. Found 0 MongoDB repository interfaces.
+2021-09-08 22:53:35.215 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 22:53:35.476 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 22:53:35.482 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 22:53:35.483 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 22:53:35.483 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 22:53:35.484 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 22:53:35.484 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 22:53:35.485 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 22:53:35.487 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 22:53:35.557 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 22:53:35.557 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 780 ms
+2021-09-08 22:53:35.689 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 22:53:35.754 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-09-08 22:53:35.754 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-08 22:53:35.756 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-09-08 22:53:35.766 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 22:53:35.770 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2021-09-08 22:59:31.921 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 11280 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 22:59:31.923 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 22:59:32.280 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner   :146  [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 22:59:32.313 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 22:59:32.327 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 MongoDB repository interfaces.
+2021-09-08 22:59:32.381 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 22:59:32.630 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 22:59:32.636 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 22:59:32.637 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 22:59:32.637 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 22:59:32.638 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 22:59:32.638 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 22:59:32.639 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 22:59:32.641 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 22:59:32.710 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 22:59:32.710 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 733 ms
+2021-09-08 22:59:32.836 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 22:59:32.904 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:558  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-09-08 22:59:32.904 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-08 22:59:32.906 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2021-09-08 22:59:32.916 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-08 22:59:32.921 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2021-09-08 23:03:26.273 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 20276 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:03:26.275 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:03:26.646 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner   :146  [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:03:26.678 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:03:26.689 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:03:26.743 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:03:26.991 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:03:26.998 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:03:26.998 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:03:26.998 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:03:26.999 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:03:27.000 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:03:27.000 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:03:27.003 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:03:27.070 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:03:27.070 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 741 ms
+2021-09-08 23:03:27.200 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:03:27.290 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:03:27.291 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:03:27.291 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:03:27.292 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:03:28.147 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:03:28.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:03:28.350 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:03:28.352 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.446 seconds (JVM running for 3.53)
+2021-09-08 23:03:30.207 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:04:29.908 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 18496 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:04:29.910 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:04:30.307 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner   :146  [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:04:30.342 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:04:30.354 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:04:30.409 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:04:30.660 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:04:30.667 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:04:30.668 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:04:30.668 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:04:30.669 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:04:30.669 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:04:30.669 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:04:30.672 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:04:30.739 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:04:30.739 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 769 ms
+2021-09-08 23:04:30.866 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:04:30.951 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:04:30.951 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:04:30.952 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:04:30.953 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:04:31.754 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:04:31.905 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:04:31.918 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:04:31.920 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.375 seconds (JVM running for 3.459)
+2021-09-08 23:04:33.830 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:05:10.147 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 13484 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:05:10.149 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:05:10.516 WARN  tk.mybatis.spring.mapper.ClassPathMapperScanner   :146  [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:05:10.553 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:05:10.565 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:05:10.621 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:05:10.873 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:05:10.879 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:05:10.880 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:05:10.880 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:05:10.881 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:05:10.881 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:05:10.881 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:05:10.884 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:05:10.952 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:05:10.952 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 751 ms
+2021-09-08 23:05:11.079 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:05:11.169 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:05:11.169 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:05:11.170 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:05:11.171 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:05:11.979 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:05:12.135 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:05:12.149 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:05:12.150 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.362 seconds (JVM running for 3.514)
+2021-09-08 23:05:14.024 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:06:44.474 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 6444 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:06:44.478 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:06:44.897 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:06:44.909 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:06:44.966 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:06:45.219 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:06:45.225 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:06:45.225 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:06:45.225 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:06:45.226 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:06:45.227 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:06:45.227 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:06:45.229 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:06:45.300 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:06:45.300 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 758 ms
+2021-09-08 23:06:45.631 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:06:45.697 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:06:45.697 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:06:45.697 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:06:45.698 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:06:46.373 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:06:46.536 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:06:46.549 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:06:46.551 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.448 seconds (JVM running for 3.522)
+2021-09-08 23:06:48.436 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:07:35.474 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 8544 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:07:35.476 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:07:35.911 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:07:35.924 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:07:35.980 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:07:36.231 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:07:36.237 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:07:36.237 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:07:36.238 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:07:36.239 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:07:36.239 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:07:36.239 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:07:36.242 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:07:36.310 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:07:36.310 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 778 ms
+2021-09-08 23:07:36.645 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:07:36.708 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:07:36.709 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:07:36.709 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:07:36.709 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:07:37.401 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:07:37.560 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:07:37.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:07:37.575 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.467 seconds (JVM running for 3.626)
+2021-09-08 23:07:39.484 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:08:21.649 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 15824 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:08:21.652 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:08:22.049 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:08:22.062 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:08:22.119 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:08:22.367 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:08:22.373 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:08:22.373 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:08:22.374 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:08:22.375 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:08:22.375 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:08:22.375 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:08:22.378 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:08:22.448 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:08:22.449 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 742 ms
+2021-09-08 23:08:22.786 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:08:22.849 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:08:22.849 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:08:22.850 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:08:22.850 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:08:23.569 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:08:23.729 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:08:23.742 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:08:23.744 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.458 seconds (JVM running for 3.552)
+2021-09-08 23:08:25.617 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:10:14.441 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 12472 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:10:14.446 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:10:15.030 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:10:15.044 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:10:15.113 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:10:15.382 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:10:15.389 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:10:15.389 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:10:15.390 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:10:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:10:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:10:15.391 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:10:15.394 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:10:15.470 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:10:15.471 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 863 ms
+2021-09-08 23:10:15.806 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:10:15.867 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:10:15.868 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:10:15.868 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:10:15.868 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:10:16.557 INFO  org.mongodb.driver.cluster                        :71   [32m                  [0;39m Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2021-09-08 23:10:16.711 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:10:16.724 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:10:16.726 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 2.854 seconds (JVM running for 3.995)
+2021-09-08 23:10:18.615 INFO  org.mongodb.driver.cluster                        :76   [32m                  [0;39m Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:70)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:128)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:79)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:65)
+	... 3 common frames omitted
+2021-09-08 23:11:10.869 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 17152 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 23:11:10.871 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 23:11:11.264 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-08 23:11:11.277 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-08 23:11:11.333 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-08 23:11:11.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 23:11:11.583 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:11:11.583 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 23:11:11.583 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 23:11:11.584 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 23:11:11.585 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 23:11:11.585 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 23:11:11.587 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 23:11:11.657 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 23:11:11.658 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 731 ms
+2021-09-08 23:11:11.993 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 23:11:12.054 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-08 23:11:12.055 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-08 23:11:12.055 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-08 23:11:12.055 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-08 23:11:12.177 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 23:11:12.190 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 23:11:12.192 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.693 seconds (JVM running for 2.776)
+2021-09-08 23:12:29.259 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 23:12:29.259 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-09-08 23:12:29.262 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
+2021-09-08 23:12:29.274 INFO  com.imooc.user.controller.HelloController         :19   [32m                  [0;39m info: hello~
+2021-09-08 23:12:29.274 WARN  com.imooc.user.controller.HelloController         :20   [32m                  [0;39m warn: hello~
+2021-09-08 23:12:29.275 ERROR com.imooc.user.controller.HelloController         :21   [32m                  [0;39m error: hello~
+2021-09-08 23:12:29.763 INFO  com.imooc.user.controller.HelloController         :19   [32m                  [0;39m info: hello~
+2021-09-08 23:12:29.763 WARN  com.imooc.user.controller.HelloController         :20   [32m                  [0;39m warn: hello~
+2021-09-08 23:12:29.763 ERROR com.imooc.user.controller.HelloController         :21   [32m                  [0;39m error: hello~
