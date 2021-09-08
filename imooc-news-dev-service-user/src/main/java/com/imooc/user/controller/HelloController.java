@@ -1,6 +1,7 @@
 package com.imooc.user.controller;
 
 import com.imooc.api.controller.user.HelloControllerApi;
+import com.imooc.grace.result.IMOOCJSONResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +19,7 @@ public class HelloController implements HelloControllerApi {
         logger.info("info: hello~");
         logger.warn("warn: hello~");
         logger.error("error: hello~");
-        return "hello";
+        return IMOOCJSONResult.ok();
     }
 
 }

@@ -52,3 +52,89 @@
 2021-09-08 21:16:05.345 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
 2021-09-08 21:16:05.358 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
 2021-09-08 21:16:05.360 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.139 seconds (JVM running for 2.185)
+2021-09-08 21:26:33.501 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 4188 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 21:26:33.503 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 21:26:34.026 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 21:26:34.030 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:26:34.031 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 21:26:34.031 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 21:26:34.032 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 21:26:34.032 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 21:26:34.032 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 21:26:34.035 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 21:26:34.090 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 21:26:34.090 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 534 ms
+2021-09-08 21:26:34.186 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 21:26:34.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:26:34.280 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 21:26:34.282 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.116 seconds (JVM running for 2.127)
+2021-09-08 21:26:58.367 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 21248 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 21:26:58.369 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 21:26:58.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 21:26:58.899 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:26:58.900 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 21:26:58.900 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 21:26:58.901 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 21:26:58.901 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 21:26:58.901 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 21:26:58.904 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 21:26:58.959 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 21:26:58.959 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 540 ms
+2021-09-08 21:26:59.056 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 21:26:59.140 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:26:59.153 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 21:26:59.155 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.125 seconds (JVM running for 2.147)
+2021-09-08 21:27:22.344 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 22484 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 21:27:22.346 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 21:27:22.876 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 21:27:22.882 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:27:22.882 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 21:27:22.882 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 21:27:22.883 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 21:27:22.884 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 21:27:22.884 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 21:27:22.886 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 21:27:22.942 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 21:27:22.942 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 548 ms
+2021-09-08 21:27:23.039 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 21:27:23.123 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:27:23.137 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 21:27:23.139 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.141 seconds (JVM running for 2.223)
+2021-09-08 21:27:54.395 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 3088 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 21:27:54.403 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 21:27:54.939 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 21:27:54.945 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:27:54.945 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 21:27:54.945 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 21:27:54.946 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 21:27:54.946 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 21:27:54.947 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 21:27:54.949 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 21:27:55.004 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 21:27:55.004 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 553 ms
+2021-09-08 21:27:55.101 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 21:27:55.188 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:27:55.201 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 21:27:55.203 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.145 seconds (JVM running for 2.196)
+2021-09-08 21:29:44.047 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 22588 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-08 21:29:44.049 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-08 21:29:44.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-08 21:29:44.581 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:29:44.581 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-08 21:29:44.581 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-08 21:29:44.582 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-08 21:29:44.583 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-08 21:29:44.583 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-08 21:29:44.585 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-08 21:29:44.642 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-08 21:29:44.642 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 544 ms
+2021-09-08 21:29:44.738 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-08 21:29:44.819 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-08 21:29:44.832 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-08 21:29:44.834 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.123 seconds (JVM running for 2.152)
+2021-09-08 21:29:48.343 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-08 21:29:48.344 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-09-08 21:29:48.347 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 3 ms
+2021-09-08 21:29:48.361 INFO  com.imooc.user.controller.HelloController         :19   [32m                  [0;39m info: hello~
+2021-09-08 21:29:48.361 WARN  com.imooc.user.controller.HelloController         :20   [32m                  [0;39m warn: hello~
+2021-09-08 21:29:48.361 ERROR com.imooc.user.controller.HelloController         :21   [32m                  [0;39m error: hello~
