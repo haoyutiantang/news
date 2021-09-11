@@ -44,3 +44,49 @@
 2021-09-11 20:15:05.859 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
 2021-09-11 20:15:05.873 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
 2021-09-11 20:15:05.875 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.789 seconds (JVM running for 2.822)
+2021-09-11 20:40:13.517 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 19216 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-11 20:40:13.519 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-11 20:40:13.940 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-11 20:40:13.953 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-11 20:40:14.014 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-11 20:40:14.273 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-11 20:40:14.279 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-11 20:40:14.279 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-11 20:40:14.279 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-11 20:40:14.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-11 20:40:14.280 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-11 20:40:14.281 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-11 20:40:14.283 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-11 20:40:14.349 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-11 20:40:14.350 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 780 ms
+2021-09-11 20:40:14.687 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-11 20:40:14.749 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-11 20:40:14.749 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-11 20:40:14.749 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-11 20:40:14.750 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-11 20:40:14.896 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-11 20:40:14.909 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-11 20:40:14.912 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.778 seconds (JVM running for 2.729)
+2021-09-11 21:14:51.466 INFO  com.imooc.user.Application                        :55   [32m                  [0;39m Starting Application on DESKTOP-CTIIJC1 with PID 19668 (E:\code\java\news\imooc-news-dev-service-user\target\classes started by MECHREVO in E:\code\java\news)
+2021-09-11 21:14:51.469 INFO  com.imooc.user.Application                        :655  [32m                  [0;39m The following profiles are active: dev
+2021-09-11 21:14:51.873 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-09-11 21:14:51.886 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 MongoDB repository interfaces.
+2021-09-11 21:14:51.946 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.imooc.user]' package. Please check your configuration.
+2021-09-11 21:14:52.201 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :92   [32m                  [0;39m Tomcat initialized with port(s): 8003 (http)
+2021-09-11 21:14:52.206 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-11 21:14:52.206 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-09-11 21:14:52.207 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-09-11 21:14:52.208 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m Loaded APR based Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2021-09-11 21:14:52.208 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-11 21:14:52.208 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-11 21:14:52.211 INFO  org.apache.catalina.core.AprLifecycleListener     :173  [32m                  [0;39m OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2021-09-11 21:14:52.278 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-09-11 21:14:52.279 INFO  org.springframework.web.context.ContextLoader     :284  [32m                  [0;39m Root WebApplicationContext: initialization completed in 757 ms
+2021-09-11 21:14:52.615 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-11 21:14:52.676 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-09-11 21:14:52.677 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-09-11 21:14:52.677 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:60   [32m                  [0;39m Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-09-11 21:14:52.677 INFO  t.mybatis.mapper.autoconfigure.MapperCacheDisabler:83   [32m                  [0;39m Clear EntityHelper entityTableMap cache.
+2021-09-11 21:14:52.819 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2021-09-11 21:14:52.833 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :204  [32m                  [0;39m Tomcat started on port(s): 8003 (http) with context path ''
+2021-09-11 21:14:52.835 INFO  com.imooc.user.Application                        :61   [32m                  [0;39m Started Application in 1.759 seconds (JVM running for 2.752)
